@@ -1,12 +1,5 @@
+import p03
 
 
-
-def print_hi(name):
-
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-if __name__ == '__main__':
-    print('Biró Angéla 01-projekt')
-
-
+#p03.szamologep()
+p03.szam_bekerese(5)
