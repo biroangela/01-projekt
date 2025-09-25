@@ -1,23 +1,14 @@
-import p03 as sajat
-from p03 import szamologep as calculator
+'''import math
+import random
 
-szam = 10
-while szam < 2:
-    szam-= 1
-    if szam == 4:
-        continue
-    if szam == 3:
-        break
-    print(szam)
+print(math.sqrt(9))
+for _ in range(50):
+    print(random.randint(1,6)) '''
+try:
+    eredmeny = 10/ertek
+except ZeroDivisionError:
+    print("Hiba: Nullával való osztés")
+except NameError:
+    print("Hiba: névhiba")
 else:
-    print("Vége a ciklusnak")
-
-while True:
-    szam+=1
-    print(szam)
-    if szam == 30:
-        break
-
-print(sajat.veletlenszam(50))
-sajat.szam_bekerese(5)
-calculator()
+    print(eredmeny)
